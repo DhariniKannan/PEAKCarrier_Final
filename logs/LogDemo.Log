@@ -1,0 +1,409 @@
+17:19:21.281 [main] INFO  com.ascent.fluentTestDemo - Logging in....
+17:19:21.293 [main] INFO  com.ascent.fluentTestDemo - Page Source 
+<html><head>
+		<meta http-equiv="Cache-Control" content="no-cache"> 
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Expires" content="0">
+	</head>
+<body>
+
+
+	<style>
+		html {
+			font-size: 16px;
+		}
+	</style>
+
+	<script src="https://apt12.activeaero.com/js/globaljs.js"></script>
+	<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+	<link href="https://apt12.activeaero.com/Layouts/Standard/styles/printstylesheet.css" rel="stylesheet" type="text/css" media="print">
+	<script type="text/javascript" src="https://apt12.activeaero.com/js/common.js"></script>
+	<script type="text/javascript" src="https://apt12.activeaero.com/js/subModal.js"></script>
+	<script type="text/javascript" src="https://apt12.activeaero.com/js/jquery-1.11.3.js"></script>
+<script>
+	window.moveTo(0,0);
+	window.resizeTo(screen.width,screen.height-25);
+	//If the user has navigated directly to the login page via a bookmark, set the window.name attribute.
+	if(window.name==""){window.name="APTWindow"};
+</script>
+
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&amp;display=swap" rel="stylesheet">
+		<link href="https://apt12.activeaero.com/admin/Layouts/Standard/styles/styles.css" rel="stylesheet" type="text/css">
+		<script type="text/JavaScript" src="https://apt12.activeaero.com/Layouts/Standard/js/Layout.js"></script>
+	
+
+<div class="wrapper">
+	<div class="wrapper-inner">
+
+
+		<div class="logo">
+			
+				<a href="https://ascentlogistics.com/on-demand/"><img src="https://cdn.ascentgl.com/img/peak-on-demand-logo.svg" width="142" border="0"></a>
+			
+		</div>
+	
+	<form name="PasswordChangeForm" action="LoginAction.cfm" method="post">
+		<table width="100%">
+			<tbody><tr>
+				<th colspan="2" class="title">
+					<span class="title__block"></span>
+					Login
+				</th>
+			</tr>
+			
+				<tr class="spacer-lg"></tr>
+				<tr>
+					<td></td>
+					<td class="error">
+						This account is already logged in. 
+					</td>
+				</tr>					
+			
+				<tr class="spacer-lg"></tr>
+				<tr>
+					<td class="error" colspan="2">
+						Please click the button below to Log Out all previous sessions. You will be then automatically logged in.					
+					</td>
+				</tr>
+				<tr><td>&nbsp;</td></tr>
+				<tr>
+					<td colspan="2">
+						
+								<input type="button" class="bg-primary full-width" value="Login" onclick="document.autoSubmitLoginForm.submit()">
+													
+					</td>
+				</tr>
+				<tr><td>&nbsp;</td></tr>
+			
+			<tr><td>&nbsp;</td></tr>
+		</tbody></table>
+	</form>
+
+
+</div> <!-- wrapper-inner -->
+
+
+	<table class="login-footer" width="75%">
+		<tbody><tr>
+			<td>
+				
+<div id="confidentialityStatement">
+	<div align="left">
+			<strong>
+				CONFIDENTIAL AND PROPRIETARY MATERIALS
+			</strong>
+			<br>
+			The information, materials and software contained in, and/or accessed in and through, this website are proprietary, trade secret and confidential property of Ascent Global Logistics, Inc., its subsidiaries and affiliates (collectively, "AAG"), and their respective customers and/or vendors.  Only authorized persons from your company may access and use this website.  Authorized persons from your company may use, reproduce, and display the information and materials of this website solely for your company's business purposes and subject to the Terms of Use for this website and any other applicable terms contained on this website.  You may not disclose to third parties, or use for the benefit of any third party, any information, materials and software of this website.			
+			<br>
+			<div class="divider pt"></div>
+	</div>
+</div>
+
+
+
+
+
+<div id="bottomnavbar" class="no-padding">
+	<table class="table compact full-width">
+		<tbody><tr>
+			<td class="no-padding">
+				<table class="table full-width">
+					<tbody><tr>
+						<td class="pl-xxs"><strong>PTM</strong> &nbsp; </td>
+						<td>1-888-786-4321 &nbsp;|&nbsp; <a href="mailto: ptm@ascentlogistics.com">ptm@ascentlogistics.com</a></td>
+					</tr>
+					<tr>
+						<td class="pl-xxs"><strong>Charter &nbsp; </strong></td>
+						<td>1-800-877-5387 &nbsp;|&nbsp; <a href="mailto: charter@ascentlogistics.com">charter@ascentlogistics.com</a></td>
+					</tr>					
+				</tbody></table>
+			</td>
+			<td class="no-padding pt" style="text-align: right">
+				<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tbody><tr>
+						<td class="pr-xxs" style="text-align: right">
+							Copyright © 1996-2023 &nbsp;|&nbsp; 
+							<strong>Ascent Global Logistics</strong> &nbsp;|&nbsp; 
+							All Rights Reserved.							
+						</td>
+					</tr>
+					<tr>
+						<td class="pr-xxs" style="text-align: right">
+							
+								<a href="javascript: openPopup(24, 1, 0, 0, 0, 1);">
+									Terms and Conditions	
+								</a>
+							
+						</td>
+					</tr>					
+				</tbody></table>			
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+
+
+
+
+			</td>
+		</tr>	
+	</tbody></table>	
+
+		<form name="autoSubmitLoginForm" action="ForceLogout.cfm" method="post">
+			<input type="hidden" name="userId" value="97420">
+			<input type="hidden" name="userLoginId" value="gtloads">
+			<input type="hidden" name="password" value="GTL0@d5GT">
+			<input type="hidden" name="languageId" value="1">
+		</form>
+	
+
+</div> <div id="popupMask"></div><div id="popupContainer"><div id="popupInner"><div id="popupTitleBar"><div id="popupTitle"></div><div id="popupControls"></div></div><iframe style="width: 100%; height: 100%; background-color: transparent;" scrolling="no" allowtransparency="true" id="popupFrame" name="popupFrame" width="100%" height="100%" frameborder="0"></iframe></div></div></body></html>
+17:42:49.939 [main] INFO  com.ascent.fluentTestDemo - Logging in....
+17:42:49.950 [main] INFO  com.ascent.fluentTestDemo - Page Source 
+<html><head>
+		<meta http-equiv="Cache-Control" content="no-cache"> 
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Expires" content="0">
+	</head>
+<body>
+
+
+	<style>
+		html {
+			font-size: 16px;
+		}
+	</style>
+
+	<script src="https://apt12.activeaero.com/js/globaljs.js"></script>
+	<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+	<link href="https://apt12.activeaero.com/Layouts/Standard/styles/printstylesheet.css" rel="stylesheet" type="text/css" media="print">
+	<script type="text/javascript" src="https://apt12.activeaero.com/js/common.js"></script>
+	<script type="text/javascript" src="https://apt12.activeaero.com/js/subModal.js"></script>
+	<script type="text/javascript" src="https://apt12.activeaero.com/js/jquery-1.11.3.js"></script>
+<script>
+	window.moveTo(0,0);
+	window.resizeTo(screen.width,screen.height-25);
+	//If the user has navigated directly to the login page via a bookmark, set the window.name attribute.
+	if(window.name==""){window.name="APTWindow"};
+</script>
+
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&amp;display=swap" rel="stylesheet">
+		<link href="https://apt12.activeaero.com/admin/Layouts/Standard/styles/styles.css" rel="stylesheet" type="text/css">
+		<script type="text/JavaScript" src="https://apt12.activeaero.com/Layouts/Standard/js/Layout.js"></script>
+	
+
+<div class="wrapper">
+	<div class="wrapper-inner">
+
+
+		<div class="logo">
+			
+				<a href="https://ascentlogistics.com/on-demand/"><img src="https://cdn.ascentgl.com/img/peak-on-demand-logo.svg" width="142" border="0"></a>
+			
+		</div>
+	
+	<form name="PasswordChangeForm" action="LoginAction.cfm" method="post">
+		<table width="100%">
+			<tbody><tr>
+				<th colspan="2" class="title">
+					<span class="title__block"></span>
+					Login
+				</th>
+			</tr>
+			
+				<tr class="spacer-lg"></tr>
+				<tr>
+					<td></td>
+					<td class="error">
+						This account is already logged in. 
+					</td>
+				</tr>					
+			
+				<tr class="spacer-lg"></tr>
+				<tr>
+					<td class="error" colspan="2">
+						Please click the button below to Log Out all previous sessions. You will be then automatically logged in.					
+					</td>
+				</tr>
+				<tr><td>&nbsp;</td></tr>
+				<tr>
+					<td colspan="2">
+						
+								<input type="button" class="bg-primary full-width" value="Login" onclick="document.autoSubmitLoginForm.submit()">
+													
+					</td>
+				</tr>
+				<tr><td>&nbsp;</td></tr>
+			
+			<tr><td>&nbsp;</td></tr>
+		</tbody></table>
+	</form>
+
+
+</div> <!-- wrapper-inner -->
+
+
+	<table class="login-footer" width="75%">
+		<tbody><tr>
+			<td>
+				
+<div id="confidentialityStatement">
+	<div align="left">
+			<strong>
+				CONFIDENTIAL AND PROPRIETARY MATERIALS
+			</strong>
+			<br>
+			The information, materials and software contained in, and/or accessed in and through, this website are proprietary, trade secret and confidential property of Ascent Global Logistics, Inc., its subsidiaries and affiliates (collectively, "AAG"), and their respective customers and/or vendors.  Only authorized persons from your company may access and use this website.  Authorized persons from your company may use, reproduce, and display the information and materials of this website solely for your company's business purposes and subject to the Terms of Use for this website and any other applicable terms contained on this website.  You may not disclose to third parties, or use for the benefit of any third party, any information, materials and software of this website.			
+			<br>
+			<div class="divider pt"></div>
+	</div>
+</div>
+
+
+
+
+
+<div id="bottomnavbar" class="no-padding">
+	<table class="table compact full-width">
+		<tbody><tr>
+			<td class="no-padding">
+				<table class="table full-width">
+					<tbody><tr>
+						<td class="pl-xxs"><strong>PTM</strong> &nbsp; </td>
+						<td>1-888-786-4321 &nbsp;|&nbsp; <a href="mailto: ptm@ascentlogistics.com">ptm@ascentlogistics.com</a></td>
+					</tr>
+					<tr>
+						<td class="pl-xxs"><strong>Charter &nbsp; </strong></td>
+						<td>1-800-877-5387 &nbsp;|&nbsp; <a href="mailto: charter@ascentlogistics.com">charter@ascentlogistics.com</a></td>
+					</tr>					
+				</tbody></table>
+			</td>
+			<td class="no-padding pt" style="text-align: right">
+				<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tbody><tr>
+						<td class="pr-xxs" style="text-align: right">
+							Copyright © 1996-2023 &nbsp;|&nbsp; 
+							<strong>Ascent Global Logistics</strong> &nbsp;|&nbsp; 
+							All Rights Reserved.							
+						</td>
+					</tr>
+					<tr>
+						<td class="pr-xxs" style="text-align: right">
+							
+								<a href="javascript: openPopup(24, 1, 0, 0, 0, 1);">
+									Terms and Conditions	
+								</a>
+							
+						</td>
+					</tr>					
+				</tbody></table>			
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+
+
+
+
+			</td>
+		</tr>	
+	</tbody></table>	
+
+		<form name="autoSubmitLoginForm" action="ForceLogout.cfm" method="post">
+			<input type="hidden" name="userId" value="97420">
+			<input type="hidden" name="userLoginId" value="gtloads">
+			<input type="hidden" name="password" value="GTL0@d5GT">
+			<input type="hidden" name="languageId" value="1">
+		</form>
+	
+
+</div> <div id="popupMask"></div><div id="popupContainer"><div id="popupInner"><div id="popupTitleBar"><div id="popupTitle"></div><div id="popupControls"></div></div><iframe style="width: 100%; height: 100%; background-color: transparent;" scrolling="no" allowtransparency="true" id="popupFrame" name="popupFrame" width="100%" height="100%" frameborder="0"></iframe></div></div></body></html>
+17:43:28.048 [main] INFO  com.ascent.fluentWaitTest - Logging in....
+17:43:30.067 [main] INFO  com.ascent.fluentWaitTest - Already Logged In ... 
+17:43:31.905 [main] INFO  com.ascent.fluentWaitTest - Searching for the pop up
+17:43:31.938 [main] INFO  com.ascent.fluentWaitTest - No Popup Messages Available
+17:43:41.951 [main] INFO  com.ascent.fluentWaitTest - Polling every 5 minutes to check if the shipment record present
+19:10:20.957 [main] INFO  com.ascent.fluentWaitTest - Logging in....
+19:10:22.976 [main] INFO  com.ascent.fluentWaitTest - Already Logged In ... 
+19:10:26.118 [main] INFO  com.ascent.fluentWaitTest - Searching for the pop up
+19:10:26.150 [main] INFO  com.ascent.fluentWaitTest - No Popup Messages Available
+19:10:36.175 [main] INFO  com.ascent.fluentWaitTest - Polling every 5 minutes to check if the shipment record present
+19:15:36.194 [main] INFO  com.ascent.fluentWaitTest - Polling every 5 minutes to check if the shipment record present
+19:20:36.204 [main] INFO  com.ascent.fluentWaitTest - Polling every 5 minutes to check if the shipment record present
+19:25:36.221 [main] INFO  com.ascent.fluentWaitTest - Polling every 5 minutes to check if the shipment record present
+19:30:36.235 [main] INFO  com.ascent.fluentWaitTest - Polling every 5 minutes to check if the shipment record present
+19:35:36.254 [main] INFO  com.ascent.fluentWaitTest - Polling every 5 minutes to check if the shipment record present
+19:40:36.265 [main] INFO  com.ascent.fluentWaitTest - Polling every 5 minutes to check if the shipment record present
+19:40:36.279 [main] INFO  com.ascent.fluentWaitTest - While waiting for the shipment records to appear, the exception occurredorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.ascent.fluentWaitTest$1@688a2c09 (tried for 1800 second(s) with 300000 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: unknown
+19:40:36.282 [main] INFO  com.ascent.fluentWaitTest - No Shipment records available
+19:40:39.296 [main] INFO  com.ascent.fluentWaitTest - Logging out......
+11:56:52.315 [main] INFO  com.ascent.fluentWaitTest - Logging in....
+11:56:54.340 [main] INFO  com.ascent.fluentWaitTest - Already Logged In ... 
+11:56:56.049 [main] INFO  com.ascent.fluentWaitTest - Searching for the pop up
+11:56:56.067 [main] INFO  com.ascent.fluentWaitTest - No Popup Messages Available
+11:57:06.088 [main] INFO  com.ascent.fluentWaitTest - Polling every 5 minutes to check if the shipment record present
+11:57:06.188 [main] INFO  com.ascent.fluentWaitTest - While waiting for the shipment records to appear, the exception occurredorg.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fac3cc75-ff4b-44ab-a112-c941b8e74f00, switchToFrame {id=null}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.2, moz:accessibilityChecks: false, moz:buildID: 20230619081400, moz:debuggerAddress: 127.0.0.1:1454, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 70612, moz:profile: C:\Users\kK\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:1454/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fac3cc75-ff4b-44ab-a112-c941b8e74f00
+12:06:48.511 [main] INFO  com.ascent.fluentWaitTest - Logging in....
+12:06:50.528 [main] INFO  com.ascent.fluentWaitTest - Already Logged In ... 
+12:06:52.176 [main] INFO  com.ascent.fluentWaitTest - Searching for the pop up
+12:06:52.193 [main] INFO  com.ascent.fluentWaitTest - No Popup Messages Available
+12:07:02.219 [main] INFO  com.ascent.fluentWaitTest - Polling every 5 minutes to check if the shipment record present
+12:12:02.921 [main] INFO  com.ascent.fluentWaitTest - Logging in....
+12:12:04.949 [main] INFO  com.ascent.fluentWaitTest - Already Logged In ... 
+12:12:08.548 [main] INFO  com.ascent.fluentWaitTest - Searching for the pop up
+12:13:58.160 [main] INFO  com.ascent.fluentWaitTest - Logging in....
+12:14:00.189 [main] INFO  com.ascent.fluentWaitTest - Already Logged In ... 
+12:14:01.826 [main] INFO  com.ascent.fluentWaitTest - Searching for the pop up
+12:14:06.847 [main] INFO  com.ascent.fluentWaitTest - pop up message/messages present
+12:14:07.304 [main] INFO  com.ascent.fluentWaitTest - Record 1 acknowledged..
+12:14:07.737 [main] INFO  com.ascent.fluentWaitTest - Record 2 acknowledged..
+12:14:08.170 [main] INFO  com.ascent.fluentWaitTest - Record 3 acknowledged..
+12:14:08.604 [main] INFO  com.ascent.fluentWaitTest - Record 4 acknowledged..
+12:15:53.061 [main] INFO  com.ascent.fluentWaitTest - Logging in....
+12:15:55.075 [main] INFO  com.ascent.fluentWaitTest - Already Logged In ... 
+12:15:56.498 [main] INFO  com.ascent.fluentWaitTest - Searching for the pop up
+12:16:01.524 [main] INFO  com.ascent.fluentWaitTest - pop up message/messages present
+12:16:02.850 [main] INFO  com.ascent.fluentWaitTest - Record 1 acknowledged..
+12:16:04.175 [main] INFO  com.ascent.fluentWaitTest - Record 2 acknowledged..
+12:16:05.509 [main] INFO  com.ascent.fluentWaitTest - Record 3 acknowledged..
+12:19:24.511 [main] INFO  com.ascent.fluentWaitTest - Logging in....
+12:19:26.535 [main] INFO  com.ascent.fluentWaitTest - Already Logged In ... 
+12:19:27.952 [main] INFO  com.ascent.fluentWaitTest - Searching for the pop up
+12:19:32.969 [main] INFO  com.ascent.fluentWaitTest - pop up message/messages present
+12:19:33.265 [main] INFO  com.ascent.fluentWaitTest - Record 1 acknowledged..
+12:19:38.596 [main] INFO  com.ascent.fluentWaitTest - Record 2 acknowledged..
+11:44:14.307 [main] INFO  com.ascent.fluentWaitTest - Logging in....
+11:44:16.328 [main] INFO  com.ascent.fluentWaitTest - Searching for the pop up
+11:44:21.345 [main] INFO  com.ascent.fluentWaitTest - pop up message/messages present
+11:44:21.663 [main] INFO  com.ascent.fluentWaitTest - Record 1 acknowledged..
+11:44:26.980 [main] INFO  com.ascent.fluentWaitTest - Record 2 acknowledged..
+11:51:07.869 [main] INFO  com.ascent.fluentWaitTestHeadless - Logging in....
+11:51:09.890 [main] INFO  com.ascent.fluentWaitTestHeadless - Already Logged In ... 
+11:51:11.352 [main] INFO  com.ascent.fluentWaitTestHeadless - Searching for the pop up
+11:51:16.377 [main] INFO  com.ascent.fluentWaitTestHeadless - pop up message/messages present
+11:51:16.705 [main] INFO  com.ascent.fluentWaitTestHeadless - Record 1 acknowledged..
+11:52:11.089 [main] INFO  com.ascent.fluentWaitTest - Logging in....
+11:52:13.116 [main] INFO  com.ascent.fluentWaitTest - Already Logged In ... 
+11:52:14.555 [main] INFO  com.ascent.fluentWaitTest - Searching for the pop up
+11:54:42.880 [main] INFO  com.ascent.fluentWaitTest - Logging in....
+11:55:10.616 [main] INFO  com.ascent.fluentWaitTest - Already Logged In ... 
+11:55:21.504 [main] INFO  com.ascent.fluentWaitTest - Searching for the pop up
+11:58:28.865 [main] INFO  com.ascent.fluentWaitTest - pop up message/messages present
+11:58:39.548 [main] INFO  com.ascent.fluentWaitTest - Record 1 acknowledged..
